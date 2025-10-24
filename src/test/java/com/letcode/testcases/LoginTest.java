@@ -56,7 +56,7 @@ public class LoginTest extends Basesteps{
 	
 	@Test(priority = 3)
 	public void LetcodeLogoVisiblity() {
-		assertTrue(false, "Letcode Logo is not Visible");
+		assertTrue(loginPage.LetcodeLogoverification(), "Letcode Logo is not Visible");
 	}
 	
 
