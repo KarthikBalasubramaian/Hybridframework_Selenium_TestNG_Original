@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.letcode.testcases.InputPageTest">
+      <class name="com.letcode.testcases.LoginTest">
         <methods>
-          <include name="FirstTextBoxInputTest"/>
-          <include name="TearDown"/>
+          <include name="LetcodeLogoVisiblity"/>
           <include name="Setup"/>
+          <include name="LoginWithValidCredentialsTest"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- com.letcode.testcases.InputPageTest -->
+      </class> <!-- com.letcode.testcases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

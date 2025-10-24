@@ -3,8 +3,8 @@
 <suite name="Suite">
 
 <listeners>
-<listener 
-class-name="com.ExtentReportListener.ExtentReportListener"></listener>
+<listener class-name="com.ExtentReportListener.ExtentReportListener"></listener>
+<listener class-name="com.Analyser.Annotationtransfomer"></listener>
 </listeners>
 
 

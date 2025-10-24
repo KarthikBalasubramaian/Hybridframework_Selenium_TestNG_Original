@@ -37,7 +37,7 @@ public class Workspacepage extends Basesteps{
 	
 	public InputPage ClickonEditBtnToOpenInputPage() {
 		Utilities.WaitForElementPresence(driver, By.xpath("//a[contains(@class,'card-footer-item') "
-				+ "and contains(text(),'Edit')]"), 25).click();
+				+ "and contains(text(),'Edit')]"), Utilities.BUTTON_WAIT).click();
 		return new InputPage();
 		
 	}
