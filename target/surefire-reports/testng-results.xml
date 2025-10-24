@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-24T12:14:01 IST" name="Suite" finished-at="2025-10-24T12:15:29 IST" duration-ms="87973">
+  <suite started-at="2025-10-24T19:28:06 IST" name="Suite" finished-at="2025-10-24T19:29:57 IST" duration-ms="110316">
     <groups>
     </groups>
-    <test started-at="2025-10-24T12:14:01 IST" name="LetCode Regression Test" finished-at="2025-10-24T12:15:29 IST" duration-ms="87973">
+    <test started-at="2025-10-24T19:28:06 IST" name="LetCode Regression Test" finished-at="2025-10-24T19:29:57 IST" duration-ms="110316">
       <class name="com.letcode.testcases.InputPageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:01 IST" name="Setup" finished-at="2025-10-24T12:14:09 IST" duration-ms="8011" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:06 IST" name="Setup" finished-at="2025-10-24T19:28:25 IST" duration-ms="18566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="FirstTextBoxInputTest()[pri:1, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:09 IST" name="FirstTextBoxInputTest" finished-at="2025-10-24T12:14:11 IST" duration-ms="1667" status="PASS">
+        <test-method signature="FirstTextBoxInputTest()[pri:1, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:25 IST" name="FirstTextBoxInputTest" finished-at="2025-10-24T19:28:26 IST" duration-ms="1094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstTextBoxInputTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:11 IST" name="TearDown" finished-at="2025-10-24T12:14:11 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:26 IST" name="TearDown" finished-at="2025-10-24T19:28:26 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:11 IST" name="Setup" finished-at="2025-10-24T12:14:15 IST" duration-ms="3362" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:26 IST" name="Setup" finished-at="2025-10-24T19:28:30 IST" duration-ms="3881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SecondTextBoxInputTest()[pri:2, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:15 IST" name="SecondTextBoxInputTest" finished-at="2025-10-24T12:14:16 IST" duration-ms="1405" status="PASS">
+        <test-method signature="SecondTextBoxInputTest()[pri:2, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:30 IST" name="SecondTextBoxInputTest" finished-at="2025-10-24T19:28:31 IST" duration-ms="930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondTextBoxInputTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:16 IST" name="TearDown" finished-at="2025-10-24T12:14:16 IST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:31 IST" name="TearDown" finished-at="2025-10-24T19:28:31 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:16 IST" name="Setup" finished-at="2025-10-24T12:14:31 IST" duration-ms="14780" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:31 IST" name="Setup" finished-at="2025-10-24T19:28:40 IST" duration-ms="8987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verifythetextinsidethirdbox()[pri:3, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:31 IST" name="Verifythetextinsidethirdbox" finished-at="2025-10-24T12:14:32 IST" duration-ms="548" status="PASS">
+        <test-method signature="Verifythetextinsidethirdbox()[pri:3, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:40 IST" name="Verifythetextinsidethirdbox" finished-at="2025-10-24T19:28:42 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifythetextinsidethirdbox -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:32 IST" name="TearDown" finished-at="2025-10-24T12:14:32 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:42 IST" name="TearDown" finished-at="2025-10-24T19:28:43 IST" duration-ms="1622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:32 IST" name="Setup" finished-at="2025-10-24T12:14:36 IST" duration-ms="3609" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:28:43 IST" name="Setup" finished-at="2025-10-24T19:29:00 IST" duration-ms="17154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyTextClearTest()[pri:4, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:36 IST" name="VerifyTextClearTest" finished-at="2025-10-24T12:14:37 IST" duration-ms="1226" status="PASS">
+        <test-method signature="VerifyTextClearTest()[pri:4, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:00 IST" name="VerifyTextClearTest" finished-at="2025-10-24T19:29:01 IST" duration-ms="592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTextClearTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:37 IST" name="TearDown" finished-at="2025-10-24T12:14:37 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:01 IST" name="TearDown" finished-at="2025-10-24T19:29:04 IST" duration-ms="3274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:37 IST" name="Setup" finished-at="2025-10-24T12:14:41 IST" duration-ms="3965" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:04 IST" name="Setup" finished-at="2025-10-24T19:29:09 IST" duration-ms="4307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyTheTextBoxIsEnabled()[pri:5, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:41 IST" name="VerifyTheTextBoxIsEnabled" finished-at="2025-10-24T12:14:42 IST" duration-ms="629" status="PASS">
+        <test-method signature="VerifyTheTextBoxIsEnabled()[pri:5, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:09 IST" name="VerifyTheTextBoxIsEnabled" finished-at="2025-10-24T19:29:09 IST" duration-ms="744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheTextBoxIsEnabled -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:42 IST" name="TearDown" finished-at="2025-10-24T12:14:42 IST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:09 IST" name="TearDown" finished-at="2025-10-24T19:29:10 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:43 IST" name="Setup" finished-at="2025-10-24T12:14:47 IST" duration-ms="3170" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:11 IST" name="Setup" finished-at="2025-10-24T19:29:16 IST" duration-ms="4481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="TwoTextBoxInputTest(java.lang.String,java.lang.String)[pri:6, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:47 IST" name="TwoTextBoxInputTest" data-provider="getdata" finished-at="2025-10-24T12:14:48 IST" duration-ms="1002" status="PASS">
+        <test-method signature="TwoTextBoxInputTest(java.lang.String,java.lang.String)[pri:6, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:16 IST" name="TwoTextBoxInputTest" data-provider="getdata" finished-at="2025-10-24T19:29:17 IST" duration-ms="1885" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TwoTextBoxInputTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:48 IST" name="TearDown" finished-at="2025-10-24T12:14:48 IST" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:17 IST" name="TearDown" finished-at="2025-10-24T19:29:18 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:48 IST" name="Setup" finished-at="2025-10-24T12:14:52 IST" duration-ms="3705" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:18 IST" name="Setup" finished-at="2025-10-24T19:29:21 IST" duration-ms="3613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="TwoTextBoxInputTest(java.lang.String,java.lang.String)[pri:6, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:52 IST" name="TwoTextBoxInputTest" data-provider="getdata" finished-at="2025-10-24T12:14:54 IST" duration-ms="2226" status="PASS">
+        <test-method signature="TwoTextBoxInputTest(java.lang.String,java.lang.String)[pri:6, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:21 IST" name="TwoTextBoxInputTest" data-provider="getdata" finished-at="2025-10-24T19:29:23 IST" duration-ms="1270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,15 +111,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TwoTextBoxInputTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:54 IST" name="TearDown" finished-at="2025-10-24T12:14:54 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:23 IST" name="TearDown" finished-at="2025-10-24T19:29:23 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:54 IST" name="Setup" finished-at="2025-10-24T12:14:57 IST" duration-ms="3030" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:23 IST" name="Setup" finished-at="2025-10-24T19:29:26 IST" duration-ms="2818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="TwoTextBoxInputTest(java.lang.String,java.lang.String)[pri:6, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:57 IST" name="TwoTextBoxInputTest" data-provider="getdata" finished-at="2025-10-24T12:14:58 IST" duration-ms="977" status="PASS">
+        <test-method signature="TwoTextBoxInputTest(java.lang.String,java.lang.String)[pri:6, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:26 IST" name="TwoTextBoxInputTest" data-provider="getdata" finished-at="2025-10-24T19:29:27 IST" duration-ms="816" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,83 +135,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TwoTextBoxInputTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@77847718]" started-at="2025-10-24T12:14:58 IST" name="TearDown" finished-at="2025-10-24T12:14:59 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.InputPageTest@158d2680]" started-at="2025-10-24T19:29:27 IST" name="TearDown" finished-at="2025-10-24T19:29:27 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.letcode.testcases.InputPageTest -->
       <class name="com.letcode.testcases.LoginTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:10 IST" name="Setup" finished-at="2025-10-24T12:15:13 IST" duration-ms="3839" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:37 IST" name="Setup" finished-at="2025-10-24T19:29:44 IST" duration-ms="7286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginWithValidCredentialsTest()[pri:1, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:13 IST" name="LoginWithValidCredentialsTest" finished-at="2025-10-24T12:15:18 IST" duration-ms="4274" status="PASS">
+        <test-method signature="LoginWithValidCredentialsTest()[pri:1, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:44 IST" name="LoginWithValidCredentialsTest" finished-at="2025-10-24T19:29:47 IST" duration-ms="3024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithValidCredentialsTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:18 IST" name="TearDown" finished-at="2025-10-24T12:15:19 IST" duration-ms="770" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:47 IST" name="TearDown" finished-at="2025-10-24T19:29:48 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:19 IST" name="Setup" finished-at="2025-10-24T12:15:22 IST" duration-ms="3536" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:48 IST" name="Setup" finished-at="2025-10-24T19:29:51 IST" duration-ms="2979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginWithInvalidCredentialsTest()[pri:2, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:22 IST" name="LoginWithInvalidCredentialsTest" finished-at="2025-10-24T12:15:24 IST" duration-ms="2166" status="PASS">
+        <test-method signature="LoginWithInvalidCredentialsTest()[pri:2, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:51 IST" name="LoginWithInvalidCredentialsTest" finished-at="2025-10-24T19:29:53 IST" duration-ms="2492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithInvalidCredentialsTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:24 IST" name="TearDown" finished-at="2025-10-24T12:15:24 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:53 IST" name="TearDown" finished-at="2025-10-24T19:29:53 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:24 IST" name="Setup" finished-at="2025-10-24T12:15:29 IST" duration-ms="4674" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:53 IST" name="Setup" finished-at="2025-10-24T19:29:56 IST" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LetcodeLogoVisiblity()[pri:3, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:29 IST" name="LetcodeLogoVisiblity" finished-at="2025-10-24T12:15:29 IST" duration-ms="103" status="PASS">
+        <test-method signature="LetcodeLogoVisiblity()[pri:3, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:56 IST" name="LetcodeLogoVisiblity" finished-at="2025-10-24T19:29:56 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LetcodeLogoVisiblity -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.LoginTest@55141def]" started-at="2025-10-24T12:15:29 IST" name="TearDown" finished-at="2025-10-24T12:15:29 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.LoginTest@47eaca72]" started-at="2025-10-24T19:29:56 IST" name="TearDown" finished-at="2025-10-24T19:29:57 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.letcode.testcases.LoginTest -->
       <class name="com.letcode.testcases.HomePageTests">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:14:59 IST" name="Setup" finished-at="2025-10-24T12:15:02 IST" duration-ms="3784" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:27 IST" name="Setup" finished-at="2025-10-24T19:29:29 IST" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ValidatePageCurrentUrlTest()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:02 IST" name="ValidatePageCurrentUrlTest" finished-at="2025-10-24T12:15:02 IST" duration-ms="5" status="PASS">
+        <test-method signature="ValidatePageCurrentUrlTest()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:29 IST" name="ValidatePageCurrentUrlTest" finished-at="2025-10-24T19:29:29 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePageCurrentUrlTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:02 IST" name="TearDown" finished-at="2025-10-24T12:15:03 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:29 IST" name="TearDown" finished-at="2025-10-24T19:29:30 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:03 IST" name="Setup" finished-at="2025-10-24T12:15:05 IST" duration-ms="2851" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:30 IST" name="Setup" finished-at="2025-10-24T19:29:33 IST" duration-ms="3023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ValidatePageHeadingTest()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:05 IST" name="ValidatePageHeadingTest" finished-at="2025-10-24T12:15:05 IST" duration-ms="63" status="PASS">
+        <test-method signature="ValidatePageHeadingTest()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:33 IST" name="ValidatePageHeadingTest" finished-at="2025-10-24T19:29:33 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePageHeadingTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:05 IST" name="TearDown" finished-at="2025-10-24T12:15:06 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:33 IST" name="TearDown" finished-at="2025-10-24T19:29:33 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:06 IST" name="Setup" finished-at="2025-10-24T12:15:09 IST" duration-ms="3597" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:33 IST" name="Setup" finished-at="2025-10-24T19:29:37 IST" duration-ms="3971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ValidatingPageTitleTest()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:09 IST" name="ValidatingPageTitleTest" finished-at="2025-10-24T12:15:09 IST" duration-ms="23" status="PASS">
+        <test-method signature="ValidatingPageTitleTest()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:37 IST" name="ValidatingPageTitleTest" finished-at="2025-10-24T19:29:37 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatingPageTitleTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.HomePageTests@47eaca72]" started-at="2025-10-24T12:15:09 IST" name="TearDown" finished-at="2025-10-24T12:15:10 IST" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.letcode.testcases.HomePageTests@1aafa419]" started-at="2025-10-24T19:29:37 IST" name="TearDown" finished-at="2025-10-24T19:29:37 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
