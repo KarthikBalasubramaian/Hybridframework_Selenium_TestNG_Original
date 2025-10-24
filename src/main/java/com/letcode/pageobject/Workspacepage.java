@@ -18,7 +18,8 @@ public class Workspacepage extends Basesteps{
 	@FindBy(xpath = "//a[contains(@class,'card-footer-item') and contains(text(),'Edit')]")
 	WebElement  Inputpagebtn;
 	
-	
+	@FindBy(xpath = "//a[@class='card-footer-item' and contains(text(),' Click ')]")
+	WebElement Clickbtn;
 	
 	
 	
@@ -39,6 +40,12 @@ public class Workspacepage extends Basesteps{
 				+ "and contains(text(),'Edit')]"), 25).click();
 		return new InputPage();
 		
+	}
+	
+	public ButtonPage ClickonClickButtonToOpenButtonpage() {
+		Utilities.WaitForElementPresence(driver, By.xpath("//a[@class='card-footer-item' and"
+				+ " contains(text(),' Click ')]"), Utilities.BUTTON_WAIT).click();
+		return new ButtonPage();
 	}
 
 
