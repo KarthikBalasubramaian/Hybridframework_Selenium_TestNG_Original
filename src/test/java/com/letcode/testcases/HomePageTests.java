@@ -28,21 +28,24 @@ public class HomePageTests extends Basesteps {
 		homepage = new Homepage();
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void ValidatingPageTitleTest() {
 		assertEquals(homepage.ValidatePageTitle(), "LetCode with Koushik", "Title Name Does not Match");
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void ValidatePageCurrentUrlTest() {
 		assertEquals(homepage.ValidateCurrentPageUrl(), "https://letcode.in/","The Page Url does not match");
 	}
 	
-	@Test
+	@Test(priority = 3)
 	public void ValidatePageHeadingTest() {
 		assertEquals(homepage.ValidateHeadingofTheHomePage(), "LetCode with Koushik", "The Heading of the page does not match");
 	}
-	
+	@Test(priority = 4)
+	public void PrintPageHeadingTest() {
+		System.out.println( homepage.ValidateHeadingofTheHomePage());
+	}
 	
 	
 	@AfterMethod

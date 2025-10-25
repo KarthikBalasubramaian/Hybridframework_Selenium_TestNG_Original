@@ -8,60 +8,14 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">LetCode Regression Test</a></td><td class="num">14</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">91,966</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,019</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LetCode Regression Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">com.letcode.testcases.LoginTest</td><td><a href="#m0">LoginWithValidCredentialsTest</a></td><td rowspan="1">1761312538827</td><td rowspan="1">20991</td></tr><tr><th colspan="4">LetCode Regression Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.letcode.testcases.HomePageTests</td><td><a href="#m1">ValidatePageCurrentUrlTest</a></td><td rowspan="1">1761312526244</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m2">ValidatePageHeadingTest</a></td><td rowspan="1">1761312529961</td><td rowspan="1">100</td></tr><tr class="passedeven"><td><a href="#m3">ValidatingPageTitleTest</a></td><td rowspan="1">1761312535295</td><td rowspan="1">16</td></tr><tr class="passedodd"><td rowspan="8">com.letcode.testcases.InputPageTest</td><td><a href="#m4">FirstTextBoxInputTest</a></td><td rowspan="1">1761312490680</td><td rowspan="1">1247</td></tr><tr class="passedodd"><td><a href="#m5">SecondTextBoxInputTest</a></td><td rowspan="1">1761312496326</td><td rowspan="1">870</td></tr><tr class="passedodd"><td><a href="#m6">TwoTextBoxInputTest</a></td><td rowspan="3">1761312518063</td><td rowspan="3">1091</td></tr><tr class="passedodd"><td><a href="#m7">TwoTextBoxInputTest</a></td></tr><tr class="passedodd"><td><a href="#m8">TwoTextBoxInputTest</a></td></tr><tr class="passedodd"><td><a href="#m9">VerifyTextClearTest</a></td><td rowspan="1">1761312504362</td><td rowspan="1">911</td></tr><tr class="passedodd"><td><a href="#m10">VerifyTheTextBoxIsEnabled</a></td><td rowspan="1">1761312508544</td><td rowspan="1">795</td></tr><tr class="passedodd"><td><a href="#m11">Verifythetextinsidethirdbox</a></td><td rowspan="1">1761312500387</td><td rowspan="1">548</td></tr><tr class="passedeven"><td rowspan="3">com.letcode.testcases.LoginTest</td><td><a href="#m12">LetcodeLogoVisiblity</a></td><td rowspan="1">1761312576438</td><td rowspan="1">50</td></tr><tr class="passedeven"><td><a href="#m13">LoginWithInvalidCredentialsTest</a></td><td rowspan="1">1761312569391</td><td rowspan="1">2846</td></tr><tr class="passedeven"><td><a href="#m14">LoginWithValidCredentialsTest</a></td><td rowspan="1">1761312563325</td><td rowspan="1">2623</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.letcode.testcases.HomePageTests</td><td><a href="#m0">PrintPageHeadingTest</a></td><td rowspan="1">1761375985502</td><td rowspan="1">46</td></tr><tr class="passedeven"><td><a href="#m1">ValidatePageCurrentUrlTest</a></td><td rowspan="1">1761375972456</td><td rowspan="1">13</td></tr><tr class="passedeven"><td><a href="#m2">ValidatePageHeadingTest</a></td><td rowspan="1">1761375976291</td><td rowspan="1">78</td></tr><tr class="passedeven"><td><a href="#m3">ValidatingPageTitleTest</a></td><td rowspan="1">1761375968674</td><td rowspan="1">32</td></tr></tbody>
 </table>
-<h2>LetCode Regression Test</h2><h3 id="m0">com.letcode.testcases.LoginTest#LoginWithValidCredentialsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),&apos; Login Successful&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.letcode.utilities.Utilities.WaitForElementPresence(Utilities.java:42)
-	at com.letcode.pageobject.LoginPage.ValidateSuccessMessage(LoginPage.java:63)
-	at com.letcode.testcases.LoginTest.LoginWithValidCredentialsTest(LoginTest.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos; Login Successful&apos;)]&quot;}
-  (Session info: chrome=141.0.7390.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [986968925c6c28725f2c5f4235afe668, findElement {using=xpath, value=//div[contains(text(),&apos; Login Successful&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58312/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 986968925c6c28725f2c5f4235afe668
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
-	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
-	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$SuCSQf2t.findElement(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 29 more
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.letcode.testcases.HomePageTests#PrintPageHeadingTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.letcode.testcases.HomePageTests#ValidatePageCurrentUrlTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.letcode.testcases.HomePageTests#ValidatePageHeadingTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.letcode.testcases.HomePageTests#ValidatingPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.letcode.testcases.InputPageTest#FirstTextBoxInputTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.letcode.testcases.InputPageTest#SecondTextBoxInputTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.letcode.testcases.InputPageTest#TwoTextBoxInputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Nageswari Karthik</td><td>  Mother</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.letcode.testcases.InputPageTest#TwoTextBoxInputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Karthik Balasburamanian</td><td>  Human Being</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.letcode.testcases.InputPageTest#TwoTextBoxInputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Nyraa Pandi Karthik</td><td> Daughter</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.letcode.testcases.InputPageTest#VerifyTextClearTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.letcode.testcases.InputPageTest#VerifyTheTextBoxIsEnabled</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.letcode.testcases.InputPageTest#Verifythetextinsidethirdbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.letcode.testcases.LoginTest#LetcodeLogoVisiblity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.letcode.testcases.LoginTest#LoginWithInvalidCredentialsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.letcode.testcases.LoginTest#LoginWithValidCredentialsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
