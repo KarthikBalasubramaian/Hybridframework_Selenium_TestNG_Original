@@ -6,7 +6,7 @@
       <class name="com.letcode.testcases.ButtonPageTest">
         <methods>
           <include name="setup"/>
-          <include name="verifyFindLocationButton"/>
+          <include name="VerifyTheButtonWidthAndHeight"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.letcode.testcases.ButtonPageTest -->
