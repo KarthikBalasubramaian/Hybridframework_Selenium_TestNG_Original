@@ -38,10 +38,14 @@ public class HomePageTests extends Basesteps {
 		assertEquals(homepage.ValidateCurrentPageUrl(), "https://letcode.in/","The Page Url does not match");
 	}
 	
+	
+	
 	@Test(priority = 3)
 	public void ValidatePageHeadingTest() {
 		assertEquals(homepage.ValidateHeadingofTheHomePage(), "LetCode with Koushik", "The Heading of the page does not match");
 	}
+	
+	
 
 	@AfterMethod
 	public void TearDown() {
