@@ -42,10 +42,7 @@ public class HomePageTests extends Basesteps {
 	public void ValidatePageHeadingTest() {
 		assertEquals(homepage.ValidateHeadingofTheHomePage(), "LetCode with Koushik", "The Heading of the page does not match");
 	}
-	@Test(priority = 4)
-	public void PrintPageHeadingTest() {
-		System.out.println( homepage.ValidateHeadingofTheHomePage());
-	}
+
 	
 	
 	@AfterMethod
