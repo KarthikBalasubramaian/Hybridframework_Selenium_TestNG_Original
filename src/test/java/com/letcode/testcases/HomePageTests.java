@@ -43,8 +43,6 @@ public class HomePageTests extends Basesteps {
 		assertEquals(homepage.ValidateHeadingofTheHomePage(), "LetCode with Koushik", "The Heading of the page does not match");
 	}
 
-	
-	
 	@AfterMethod
 	public void TearDown() {
 		driver.quit();
