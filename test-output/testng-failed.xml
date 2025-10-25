@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.ExtentReportListener.ExtentReportListener"/>
-    <listener class-name="com.Analyser.Annotationtransfomer"/>
-  </listeners>
-  <test thread-count="5" name="LetCode Regression Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.letcode.testcases.LoginTest">
+      <class name="com.letcode.testcases.ButtonPageTest">
         <methods>
-          <include name="LetcodeLogoVisiblity"/>
-          <include name="Setup"/>
+          <include name="setup"/>
+          <include name="verifyFindLocationButton"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- com.letcode.testcases.LoginTest -->
+      </class> <!-- com.letcode.testcases.ButtonPageTest -->
     </classes>
-  </test> <!-- LetCode Regression Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
